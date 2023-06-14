@@ -6,7 +6,7 @@ public class Main {
         Logger logger = new FileLogger("logger-output.log");
         logger.log("Example log message");
         
-        logger = new ConsoleLogger("logger-output.log");
+        logger = new ConsoleLogger();
         logger.log("Example log message");
     }
 }
